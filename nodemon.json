@@ -1,0 +1,6 @@
+{
+  "exec": "npm run dev",
+  "ext": "ts,json",
+  "watch": ["server/*", "public/*"],
+  "ignore": ["**/__tests__/**", "*.test.ts", "*.spec.ts"]
+}
