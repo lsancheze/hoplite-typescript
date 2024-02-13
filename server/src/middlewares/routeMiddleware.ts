@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-
 const routeMiddleware =
   (fn) =>
   async (req, res, next): Promise<void> => {

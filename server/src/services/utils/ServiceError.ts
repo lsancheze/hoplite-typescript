@@ -35,7 +35,6 @@ export default class ServiceError extends Error {
   ) {
     super(...params);
 
-    /* istanbul ignore next */
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, ServiceError);
     }
